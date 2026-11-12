@@ -1,0 +1,14 @@
+{
+  "A_full": {
+    "checkpoint": "/root/autodl-tmp/runs/ablation15k_full_s42/checkpoints/best.pth",
+    "boundary_mIoU": 29.123467206954956,
+    "interior_mIoU": 57.45674967765808,
+    "gap": 28.333282470703125
+  },
+  "B_noboundary": {
+    "checkpoint": "/root/autodl-tmp/runs/ablation15k_noboundary_s42/checkpoints/best.pth",
+    "boundary_mIoU": 28.38493287563324,
+    "interior_mIoU": 57.06737041473389,
+    "gap": 28.682437539100647
+  }
+}

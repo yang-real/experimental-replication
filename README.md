@@ -49,6 +49,18 @@ similarity was 0.8911 with Boundary Loss and 0.9063 without it. This suggests
 that Boundary Loss primarily increases mid-level boundary/interior feature
 distinction, rather than increasing boundary activation magnitude.
 
+### Feature visualizations
+
+| Full loss | No Boundary Loss |
+|---|---|
+| ![VMamba full-loss urban features](evidence/ablation_15k/ablation_feature_viz/A_full_urban_features.png) | ![VMamba no-boundary urban features](evidence/ablation_15k/ablation_feature_viz/B_noboundary_urban_features.png) |
+| ![VMamba full-loss rural features](evidence/ablation_15k/ablation_feature_viz/A_full_rural_features.png) | ![VMamba no-boundary rural features](evidence/ablation_15k/ablation_feature_viz/B_noboundary_rural_features.png) |
+
+![Boundary/interior feature similarity](evidence/ablation_15k/ablation_feature_quant/feature_similarity_comparison.png)
+
+Raw metrics, per-image feature statistics and training logs are stored under
+[`evidence/ablation_15k/`](evidence/ablation_15k/).
+
 This is an exploratory single-seed, 15k-iteration ablation and is not a strict
 replacement for a full 50k multi-seed experiment.
 

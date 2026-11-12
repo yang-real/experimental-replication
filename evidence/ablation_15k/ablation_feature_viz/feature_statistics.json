@@ -1,0 +1,106 @@
+{
+  "A_full_urban": {
+    "image": "/root/autodl-tmp/LoveDA/Val/Urban/images_png/3514.png",
+    "mask": "/root/autodl-tmp/LoveDA/Val/Urban/masks_png/3514.png",
+    "features": {
+      "F1": {
+        "boundary_mean_norm": 9.63343620300293,
+        "interior_mean_norm": 9.627580642700195,
+        "boundary_interior_cosine": 0.9748501181602478
+      },
+      "F2": {
+        "boundary_mean_norm": 13.895546913146973,
+        "interior_mean_norm": 13.905940055847168,
+        "boundary_interior_cosine": 0.9720765352249146
+      },
+      "F3": {
+        "boundary_mean_norm": 19.362262725830078,
+        "interior_mean_norm": 19.358516693115234,
+        "boundary_interior_cosine": 0.7426474094390869
+      },
+      "F4": {
+        "boundary_mean_norm": 27.387487411499023,
+        "interior_mean_norm": 27.379684448242188,
+        "boundary_interior_cosine": 0.9854159355163574
+      }
+    }
+  },
+  "A_full_rural": {
+    "image": "/root/autodl-tmp/LoveDA/Val/Rural/images_png/2522.png",
+    "mask": "/root/autodl-tmp/LoveDA/Val/Rural/masks_png/2522.png",
+    "features": {
+      "F1": {
+        "boundary_mean_norm": 9.628121376037598,
+        "interior_mean_norm": 9.623530387878418,
+        "boundary_interior_cosine": 0.9702956676483154
+      },
+      "F2": {
+        "boundary_mean_norm": 13.885149002075195,
+        "interior_mean_norm": 13.897533416748047,
+        "boundary_interior_cosine": 0.9759209752082825
+      },
+      "F3": {
+        "boundary_mean_norm": 19.360322952270508,
+        "interior_mean_norm": 19.354373931884766,
+        "boundary_interior_cosine": 0.8056468963623047
+      },
+      "F4": {
+        "boundary_mean_norm": 27.36943817138672,
+        "interior_mean_norm": 27.378503799438477,
+        "boundary_interior_cosine": 0.9945986270904541
+      }
+    }
+  },
+  "B_noboundary_urban": {
+    "image": "/root/autodl-tmp/LoveDA/Val/Urban/images_png/3514.png",
+    "mask": "/root/autodl-tmp/LoveDA/Val/Urban/masks_png/3514.png",
+    "features": {
+      "F1": {
+        "boundary_mean_norm": 9.563953399658203,
+        "interior_mean_norm": 9.555514335632324,
+        "boundary_interior_cosine": 0.9735782146453857
+      },
+      "F2": {
+        "boundary_mean_norm": 13.838033676147461,
+        "interior_mean_norm": 13.847136497497559,
+        "boundary_interior_cosine": 0.9759588241577148
+      },
+      "F3": {
+        "boundary_mean_norm": 19.245563507080078,
+        "interior_mean_norm": 19.228456497192383,
+        "boundary_interior_cosine": 0.7932376861572266
+      },
+      "F4": {
+        "boundary_mean_norm": 27.21797752380371,
+        "interior_mean_norm": 27.21932601928711,
+        "boundary_interior_cosine": 0.9971641898155212
+      }
+    }
+  },
+  "B_noboundary_rural": {
+    "image": "/root/autodl-tmp/LoveDA/Val/Rural/images_png/2522.png",
+    "mask": "/root/autodl-tmp/LoveDA/Val/Rural/masks_png/2522.png",
+    "features": {
+      "F1": {
+        "boundary_mean_norm": 9.559030532836914,
+        "interior_mean_norm": 9.550127029418945,
+        "boundary_interior_cosine": 0.9697544574737549
+      },
+      "F2": {
+        "boundary_mean_norm": 13.827470779418945,
+        "interior_mean_norm": 13.839241981506348,
+        "boundary_interior_cosine": 0.9790158271789551
+      },
+      "F3": {
+        "boundary_mean_norm": 19.237756729125977,
+        "interior_mean_norm": 19.22954750061035,
+        "boundary_interior_cosine": 0.8768664002418518
+      },
+      "F4": {
+        "boundary_mean_norm": 27.198854446411133,
+        "interior_mean_norm": 27.2093448638916,
+        "boundary_interior_cosine": 0.9932644367218018
+      }
+    }
+  }
+}

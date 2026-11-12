@@ -1,0 +1,162 @@
+{
+  "results": {
+    "A_full": {
+      "urban": {
+        "F1": {
+          "n": 48,
+          "cosine_mean": 0.9803301356732845,
+          "cosine_std": 0.018124129016155444,
+          "boundary_norm_mean": 9.63389003276825,
+          "interior_norm_mean": 9.625489354133606,
+          "norm_ratio": 1.0008727534076005
+        },
+        "F2": {
+          "n": 48,
+          "cosine_mean": 0.9811755505700906,
+          "cosine_std": 0.01907975687341707,
+          "boundary_norm_mean": 13.892563223838806,
+          "interior_norm_mean": 13.895690202713013,
+          "norm_ratio": 0.9997749677180774
+        },
+        "F3": {
+          "n": 48,
+          "cosine_mean": 0.8938083002964655,
+          "cosine_std": 0.0758987628296609,
+          "boundary_norm_mean": 19.355148911476135,
+          "interior_norm_mean": 19.352048754692078,
+          "norm_ratio": 1.0001601978592736
+        },
+        "F4": {
+          "n": 48,
+          "cosine_mean": 0.9922859147191048,
+          "cosine_std": 0.004470563565455447,
+          "boundary_norm_mean": 27.367152452468872,
+          "interior_norm_mean": 27.370489438374836,
+          "norm_ratio": 0.9998780808828985
+        }
+      },
+      "rural": {
+        "F1": {
+          "n": 49,
+          "cosine_mean": 0.9778501756337225,
+          "cosine_std": 0.021074522065549613,
+          "boundary_norm_mean": 9.642279235684143,
+          "interior_norm_mean": 9.638985030505122,
+          "norm_ratio": 1.0003417585116685
+        },
+        "F2": {
+          "n": 49,
+          "cosine_mean": 0.9798107013410452,
+          "cosine_std": 0.014928241020959588,
+          "boundary_norm_mean": 13.898851978535555,
+          "interior_norm_mean": 13.90836305034404,
+          "norm_ratio": 0.9993161616665415
+        },
+        "F3": {
+          "n": 49,
+          "cosine_mean": 0.8883518832070487,
+          "cosine_std": 0.0920754448912523,
+          "boundary_norm_mean": 19.36269997577278,
+          "interior_norm_mean": 19.356490894239776,
+          "norm_ratio": 1.0003207751635321
+        },
+        "F4": {
+          "n": 49,
+          "cosine_mean": 0.9871953190589438,
+          "cosine_std": 0.011287893530230873,
+          "boundary_norm_mean": 27.367272357551418,
+          "interior_norm_mean": 27.372020682510065,
+          "norm_ratio": 0.9998265263272039
+        }
+      }
+    },
+    "B_noboundary": {
+      "urban": {
+        "F1": {
+          "n": 48,
+          "cosine_mean": 0.9795763952036699,
+          "cosine_std": 0.01897318080050564,
+          "boundary_norm_mean": 9.563145319620768,
+          "interior_norm_mean": 9.553258657455444,
+          "norm_ratio": 1.0010348994535605
+        },
+        "F2": {
+          "n": 48,
+          "cosine_mean": 0.9841001915434996,
+          "cosine_std": 0.01620721910389978,
+          "boundary_norm_mean": 13.832912464936575,
+          "interior_norm_mean": 13.837051749229431,
+          "norm_ratio": 0.9997008550398688
+        },
+        "F3": {
+          "n": 48,
+          "cosine_mean": 0.910951000948747,
+          "cosine_std": 0.06189051423222883,
+          "boundary_norm_mean": 19.232849836349487,
+          "interior_norm_mean": 19.230322122573853,
+          "norm_ratio": 1.000131444172309
+        },
+        "F4": {
+          "n": 48,
+          "cosine_mean": 0.9875986178716024,
+          "cosine_std": 0.02373804698590866,
+          "boundary_norm_mean": 27.19694523016612,
+          "interior_norm_mean": 27.19986844062805,
+          "norm_ratio": 0.9998925285072863
+        }
+      },
+      "rural": {
+        "F1": {
+          "n": 49,
+          "cosine_mean": 0.9765444981808565,
+          "cosine_std": 0.021809666808077173,
+          "boundary_norm_mean": 9.572711925117337,
+          "interior_norm_mean": 9.567733706260213,
+          "norm_ratio": 1.000520313274696
+        },
+        "F2": {
+          "n": 49,
+          "cosine_mean": 0.9830279496251321,
+          "cosine_std": 0.012810066680265682,
+          "boundary_norm_mean": 13.844658365055006,
+          "interior_norm_mean": 13.855145065151916,
+          "norm_ratio": 0.9992431187079892
+        },
+        "F3": {
+          "n": 49,
+          "cosine_mean": 0.9016799257726086,
+          "cosine_std": 0.0883868086278457,
+          "boundary_norm_mean": 19.242571889137736,
+          "interior_norm_mean": 19.235104736016723,
+          "norm_ratio": 1.000388204442996
+        },
+        "F4": {
+          "n": 49,
+          "cosine_mean": 0.9912997374729234,
+          "cosine_std": 0.02152607164782635,
+          "boundary_norm_mean": 27.20711762564523,
+          "interior_norm_mean": 27.212079106544962,
+          "norm_ratio": 0.9998176735823343
+        }
+      }
+    }
+  },
+  "combined": {
+    "F1": {
+      "A_full": 0.9790901556535034,
+      "B_noboundary": 0.9780604466922632
+    },
+    "F2": {
+      "A_full": 0.9804931259555679,
+      "B_noboundary": 0.9835640705843158
+    },
+    "F3": {
+      "A_full": 0.8910800917517572,
+      "B_noboundary": 0.9063154633606778
+    },
+    "F4": {
+      "A_full": 0.9897406168890243,
+      "B_noboundary": 0.9894491776722629
+    }
+  }
+}

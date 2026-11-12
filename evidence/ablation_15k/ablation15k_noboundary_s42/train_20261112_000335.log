@@ -1,0 +1,110 @@
+2026-11-12 00:03:35,852 - MambaSegmentation - INFO - Backbone: vmamba  variant: small
+2026-11-12 00:03:35,852 - MambaSegmentation - INFO - Device: cuda:0  Output: /root/autodl-tmp/runs/ablation15k_noboundary_s42
+2026-11-12 00:03:35,854 - MambaSegmentation - INFO - Building dataloaders…
+2026-11-12 00:03:35,905 - MambaSegmentation - INFO - Train: 2522  Val: 1669
+2026-11-12 00:03:35,905 - MambaSegmentation - INFO - Building model…
+2026-11-12 00:03:39,785 - MambaSegmentation - INFO - Parameters — total: 49,146,471  trainable: 49,146,471
+2026-11-12 00:03:39,793 - MambaSegmentation - INFO - Training 0 → 15000 iters, val every 7500
+2026-11-12 00:05:02,640 - MambaSegmentation - INFO - Iter [250/15000] Loss: 2.2740  LR_bb: 5.91e-05  LR_hd: 2.96e-04
+2026-11-12 00:06:01,891 - MambaSegmentation - INFO - Iter [500/15000] Loss: 1.2311  LR_bb: 5.82e-05  LR_hd: 2.91e-04
+2026-11-12 00:07:01,416 - MambaSegmentation - INFO - Iter [750/15000] Loss: 1.1264  LR_bb: 5.73e-05  LR_hd: 2.86e-04
+2026-11-12 00:08:00,732 - MambaSegmentation - INFO - Iter [1000/15000] Loss: 0.9916  LR_bb: 5.64e-05  LR_hd: 2.82e-04
+2026-11-12 00:08:59,803 - MambaSegmentation - INFO - Iter [1250/15000] Loss: 0.9596  LR_bb: 5.55e-05  LR_hd: 2.77e-04
+2026-11-12 00:09:59,254 - MambaSegmentation - INFO - Iter [1500/15000] Loss: 0.9315  LR_bb: 5.46e-05  LR_hd: 2.73e-04
+2026-11-12 00:10:58,279 - MambaSegmentation - INFO - Iter [1750/15000] Loss: 0.8863  LR_bb: 5.37e-05  LR_hd: 2.68e-04
+2026-11-12 00:11:57,736 - MambaSegmentation - INFO - Iter [2000/15000] Loss: 0.8978  LR_bb: 5.28e-05  LR_hd: 2.64e-04
+2026-11-12 00:12:56,945 - MambaSegmentation - INFO - Iter [2250/15000] Loss: 0.8606  LR_bb: 5.18e-05  LR_hd: 2.59e-04
+2026-11-12 00:13:55,696 - MambaSegmentation - INFO - Iter [2500/15000] Loss: 0.8437  LR_bb: 5.09e-05  LR_hd: 2.55e-04
+2026-11-12 00:14:55,337 - MambaSegmentation - INFO - Iter [2750/15000] Loss: 0.8189  LR_bb: 5.00e-05  LR_hd: 2.50e-04
+2026-11-12 00:15:54,595 - MambaSegmentation - INFO - Iter [3000/15000] Loss: 0.8371  LR_bb: 4.91e-05  LR_hd: 2.45e-04
+2026-11-12 00:16:53,998 - MambaSegmentation - INFO - Iter [3250/15000] Loss: 0.8054  LR_bb: 4.82e-05  LR_hd: 2.41e-04
+2026-11-12 00:17:53,326 - MambaSegmentation - INFO - Iter [3500/15000] Loss: 0.7954  LR_bb: 4.72e-05  LR_hd: 2.36e-04
+2026-11-12 00:18:52,466 - MambaSegmentation - INFO - Iter [3750/15000] Loss: 0.7776  LR_bb: 4.63e-05  LR_hd: 2.32e-04
+2026-11-12 00:19:51,892 - MambaSegmentation - INFO - Iter [4000/15000] Loss: 0.7707  LR_bb: 4.54e-05  LR_hd: 2.27e-04
+2026-11-12 00:20:50,981 - MambaSegmentation - INFO - Iter [4250/15000] Loss: 0.7585  LR_bb: 4.45e-05  LR_hd: 2.22e-04
+2026-11-12 00:21:50,489 - MambaSegmentation - INFO - Iter [4500/15000] Loss: 0.7554  LR_bb: 4.35e-05  LR_hd: 2.18e-04
+2026-11-12 00:22:49,839 - MambaSegmentation - INFO - Iter [4750/15000] Loss: 0.7572  LR_bb: 4.26e-05  LR_hd: 2.13e-04
+2026-11-12 00:23:48,901 - MambaSegmentation - INFO - Iter [5000/15000] Loss: 0.7426  LR_bb: 4.17e-05  LR_hd: 2.08e-04
+2026-11-12 00:24:48,649 - MambaSegmentation - INFO - Iter [5250/15000] Loss: 0.7445  LR_bb: 4.07e-05  LR_hd: 2.04e-04
+2026-11-12 00:25:48,137 - MambaSegmentation - INFO - Iter [5500/15000] Loss: 0.7462  LR_bb: 3.98e-05  LR_hd: 1.99e-04
+2026-11-12 00:26:47,700 - MambaSegmentation - INFO - Iter [5750/15000] Loss: 0.7307  LR_bb: 3.88e-05  LR_hd: 1.94e-04
+2026-11-12 00:27:47,070 - MambaSegmentation - INFO - Iter [6000/15000] Loss: 0.7005  LR_bb: 3.79e-05  LR_hd: 1.89e-04
+2026-11-12 00:28:45,948 - MambaSegmentation - INFO - Iter [6250/15000] Loss: 0.7218  LR_bb: 3.69e-05  LR_hd: 1.85e-04
+2026-11-12 00:29:45,571 - MambaSegmentation - INFO - Iter [6500/15000] Loss: 0.7063  LR_bb: 3.60e-05  LR_hd: 1.80e-04
+2026-11-12 00:30:44,907 - MambaSegmentation - INFO - Iter [6750/15000] Loss: 0.6797  LR_bb: 3.50e-05  LR_hd: 1.75e-04
+2026-11-12 00:31:44,551 - MambaSegmentation - INFO - Iter [7000/15000] Loss: 0.6963  LR_bb: 3.41e-05  LR_hd: 1.70e-04
+2026-11-12 00:32:44,006 - MambaSegmentation - INFO - Iter [7250/15000] Loss: 0.6861  LR_bb: 3.31e-05  LR_hd: 1.66e-04
+2026-11-12 00:33:43,026 - MambaSegmentation - INFO - Iter [7500/15000] Loss: 0.6979  LR_bb: 3.22e-05  LR_hd: 1.61e-04
+2026-11-12 00:33:43,027 - MambaSegmentation - INFO - 
+============================================================
+Validation at iter 7500
+============================================================
+2026-11-12 00:35:48,513 - MambaSegmentation - INFO - 
+=======================================================
+Class                       IoU         F1
+-------------------------------------------------------
+Background                55.36      71.27
+Building                  64.83      78.66
+Road                      58.39      73.73
+Water                     72.98      84.38
+Barren                    26.38      41.75
+Forest                    39.19      56.31
+Agricultural              58.44      73.77
+-------------------------------------------------------
+Mean                      53.65      68.55
+Overall Accuracy          71.98
+=======================================================
+2026-11-12 00:35:49,185 - MambaSegmentation - INFO - Saved: /root/autodl-tmp/runs/ablation15k_noboundary_s42/checkpoints/checkpoint_iter_7500.pth
+2026-11-12 00:35:49,894 - MambaSegmentation - INFO - New best mIoU: 0.5365  → /root/autodl-tmp/runs/ablation15k_noboundary_s42/checkpoints/best.pth
+2026-11-12 00:36:49,871 - MambaSegmentation - INFO - Iter [7750/15000] Loss: 0.6792  LR_bb: 3.12e-05  LR_hd: 1.56e-04
+2026-11-12 00:37:49,176 - MambaSegmentation - INFO - Iter [8000/15000] Loss: 0.6708  LR_bb: 3.02e-05  LR_hd: 1.51e-04
+2026-11-12 00:38:48,834 - MambaSegmentation - INFO - Iter [8250/15000] Loss: 0.6822  LR_bb: 2.92e-05  LR_hd: 1.46e-04
+2026-11-12 00:39:48,361 - MambaSegmentation - INFO - Iter [8500/15000] Loss: 0.6527  LR_bb: 2.83e-05  LR_hd: 1.41e-04
+2026-11-12 00:40:47,560 - MambaSegmentation - INFO - Iter [8750/15000] Loss: 0.6485  LR_bb: 2.73e-05  LR_hd: 1.36e-04
+2026-11-12 00:41:47,017 - MambaSegmentation - INFO - Iter [9000/15000] Loss: 0.6484  LR_bb: 2.63e-05  LR_hd: 1.32e-04
+2026-11-12 00:42:46,545 - MambaSegmentation - INFO - Iter [9250/15000] Loss: 0.6558  LR_bb: 2.53e-05  LR_hd: 1.27e-04
+2026-11-12 00:43:46,108 - MambaSegmentation - INFO - Iter [9500/15000] Loss: 0.6418  LR_bb: 2.43e-05  LR_hd: 1.22e-04
+2026-11-12 00:44:45,826 - MambaSegmentation - INFO - Iter [9750/15000] Loss: 0.6412  LR_bb: 2.33e-05  LR_hd: 1.17e-04
+2026-11-12 00:45:44,905 - MambaSegmentation - INFO - Iter [10000/15000] Loss: 0.6287  LR_bb: 2.23e-05  LR_hd: 1.12e-04
+2026-11-12 00:46:44,500 - MambaSegmentation - INFO - Iter [10250/15000] Loss: 0.6218  LR_bb: 2.13e-05  LR_hd: 1.07e-04
+2026-11-12 00:47:43,635 - MambaSegmentation - INFO - Iter [10500/15000] Loss: 0.6365  LR_bb: 2.03e-05  LR_hd: 1.02e-04
+2026-11-12 00:48:42,963 - MambaSegmentation - INFO - Iter [10750/15000] Loss: 0.6469  LR_bb: 1.93e-05  LR_hd: 9.64e-05
+2026-11-12 00:49:42,226 - MambaSegmentation - INFO - Iter [11000/15000] Loss: 0.6197  LR_bb: 1.83e-05  LR_hd: 9.13e-05
+2026-11-12 00:50:41,556 - MambaSegmentation - INFO - Iter [11250/15000] Loss: 0.6213  LR_bb: 1.72e-05  LR_hd: 8.62e-05
+2026-11-12 00:51:41,102 - MambaSegmentation - INFO - Iter [11500/15000] Loss: 0.6277  LR_bb: 1.62e-05  LR_hd: 8.10e-05
+2026-11-12 00:52:40,581 - MambaSegmentation - INFO - Iter [11750/15000] Loss: 0.6275  LR_bb: 1.52e-05  LR_hd: 7.58e-05
+2026-11-12 00:53:40,145 - MambaSegmentation - INFO - Iter [12000/15000] Loss: 0.6010  LR_bb: 1.41e-05  LR_hd: 7.05e-05
+2026-11-12 00:54:39,630 - MambaSegmentation - INFO - Iter [12250/15000] Loss: 0.5998  LR_bb: 1.30e-05  LR_hd: 6.52e-05
+2026-11-12 00:55:38,848 - MambaSegmentation - INFO - Iter [12500/15000] Loss: 0.6129  LR_bb: 1.20e-05  LR_hd: 5.98e-05
+2026-11-12 00:56:38,425 - MambaSegmentation - INFO - Iter [12750/15000] Loss: 0.5969  LR_bb: 1.09e-05  LR_hd: 5.44e-05
+2026-11-12 00:57:37,725 - MambaSegmentation - INFO - Iter [13000/15000] Loss: 0.6047  LR_bb: 9.79e-06  LR_hd: 4.90e-05
+2026-11-12 00:58:37,356 - MambaSegmentation - INFO - Iter [13250/15000] Loss: 0.6187  LR_bb: 8.68e-06  LR_hd: 4.34e-05
+2026-11-12 00:59:37,021 - MambaSegmentation - INFO - Iter [13500/15000] Loss: 0.5867  LR_bb: 7.56e-06  LR_hd: 3.78e-05
+2026-11-12 01:00:36,126 - MambaSegmentation - INFO - Iter [13750/15000] Loss: 0.5759  LR_bb: 6.42e-06  LR_hd: 3.21e-05
+2026-11-12 01:01:35,883 - MambaSegmentation - INFO - Iter [14000/15000] Loss: 0.6005  LR_bb: 5.25e-06  LR_hd: 2.62e-05
+2026-11-12 01:02:35,385 - MambaSegmentation - INFO - Iter [14250/15000] Loss: 0.5928  LR_bb: 4.05e-06  LR_hd: 2.03e-05
+2026-11-12 01:03:34,956 - MambaSegmentation - INFO - Iter [14500/15000] Loss: 0.5815  LR_bb: 2.82e-06  LR_hd: 1.41e-05
+2026-11-12 01:04:34,677 - MambaSegmentation - INFO - Iter [14750/15000] Loss: 0.5700  LR_bb: 1.51e-06  LR_hd: 7.56e-06
+2026-11-12 01:05:34,109 - MambaSegmentation - INFO - Iter [15000/15000] Loss: 0.5922  LR_bb: 1.00e-06  LR_hd: 1.00e-06
+2026-11-12 01:05:34,110 - MambaSegmentation - INFO - 
+============================================================
+Validation at iter 15000
+============================================================
+2026-11-12 01:07:27,634 - MambaSegmentation - INFO - 
+=======================================================
+Class                       IoU         F1
+-------------------------------------------------------
+Background                55.49      71.37
+Building                  66.73      80.05
+Road                      58.10      73.50
+Water                     72.97      84.37
+Barren                    28.35      44.17
+Forest                    40.06      57.20
+Agricultural              55.17      71.11
+-------------------------------------------------------
+Mean                      53.84      68.82
+Overall Accuracy          71.68
+=======================================================
+2026-11-12 01:07:28,298 - MambaSegmentation - INFO - Saved: /root/autodl-tmp/runs/ablation15k_noboundary_s42/checkpoints/checkpoint_iter_15000.pth
+2026-11-12 01:07:29,081 - MambaSegmentation - INFO - New best mIoU: 0.5384  → /root/autodl-tmp/runs/ablation15k_noboundary_s42/checkpoints/best.pth
+2026-11-12 01:07:29,745 - MambaSegmentation - INFO - Done. Best mIoU: 0.5384  Final saved: /root/autodl-tmp/runs/ablation15k_noboundary_s42/checkpoints/final.pth
