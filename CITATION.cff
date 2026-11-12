@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this reproduction, cite the original paper and reference this repository."
+title: "Independent Reproduction Audit of Mamba-Segmentation"
+type: software
+authors:
+  - family-names: "Yang"
+    given-names: "Real"
+repository-code: "https://github.com/yang-real/experimental-replication"
+references:
+  - type: article
+    title: "A Controlled Benchmark of Visual State-Space Backbones with Domain-Shift and Boundary Analysis for Remote-Sensing Segmentation"
+    year: 2026
+    url: "https://arxiv.org/abs/2604.18721"

@@ -74,6 +74,21 @@ replacement for a full 50k multi-seed experiment.
 - [Spatial-Mamba-Base](reports/05_spatialmamba_base.md)
 - [Boundary Loss ablation](reports/06_boundary_loss_ablation_15k.md)
 
+## Reproducibility assets
+
+- [Environment description](docs/ENVIRONMENT.md)
+- [Step-by-step reproduction guide](docs/REPRODUCE.md)
+- [Checkpoint manifest](docs/CHECKPOINTS.md)
+- [Base environment requirements](requirements.txt)
+- [MambaVision environment requirements](requirements-mambavision.txt)
+- [Conda environment](environment.yml)
+- [Machine-readable reproduction metrics](results/reproduction_metrics.csv)
+- [Machine-readable cross-domain metrics](results/cross_domain_metrics.csv)
+- [Boundary Loss ablation metrics](results/boundary_ablation_metrics.csv)
+- [Feature similarity measurements](results/feature_quantitative.csv)
+- [Upstream compatibility patch](patches/upstream_compatibility.patch)
+- [Analysis scripts](scripts/)
+
 ## Important discrepancies
 
 1. The paper states batch size 4, while the current repository default is 8.

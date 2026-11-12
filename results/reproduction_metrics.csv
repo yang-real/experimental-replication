@@ -1,0 +1,6 @@
+backbone,variant,source,all_miou,all_oa,all_mf1,paper_miou,paper_oa,paper_mf1
+VMamba,small,official_checkpoint,55.66,73.49,70.69,55.66,73.49,70.69
+CNN,DeepLabv3-ResNet50,official_checkpoint,52.02,69.40,67.67,43.01,59.14,64.20
+MambaVision,base,official_checkpoint,55.16,72.42,70.42,55.17,72.42,70.43
+Transformer-labeled,ResNet18,official_checkpoint,48.61,65.04,63.99,48.61,65.04,63.99
+Spatial-Mamba,base,official_checkpoint,48.19,66.51,64.35,48.03,66.35,64.19

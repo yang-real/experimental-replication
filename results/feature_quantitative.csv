@@ -1,0 +1,17 @@
+experiment,domain,layer,boundary_interior_cosine_mean,boundary_interior_cosine_std,samples
+full_tribraid,urban,F1,0.9803,0.0181,48
+full_tribraid,urban,F2,0.9812,0.0191,48
+full_tribraid,urban,F3,0.8938,0.0759,48
+full_tribraid,urban,F4,0.9923,0.0045,48
+full_tribraid,rural,F1,0.9779,0.0211,49
+full_tribraid,rural,F2,0.9798,0.0149,49
+full_tribraid,rural,F3,0.8884,0.0921,49
+full_tribraid,rural,F4,0.9872,0.0113,49
+no_boundary,urban,F1,0.9796,0.0190,48
+no_boundary,urban,F2,0.9841,0.0162,48
+no_boundary,urban,F3,0.9110,0.0619,48
+no_boundary,urban,F4,0.9876,0.0237,48
+no_boundary,rural,F1,0.9765,0.0218,49
+no_boundary,rural,F2,0.9830,0.0128,49
+no_boundary,rural,F3,0.9017,0.0884,49
+no_boundary,rural,F4,0.9913,0.0215,49

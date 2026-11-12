@@ -1,0 +1,75 @@
+diff --git a/core/losses.py b/core/losses.py
+index cc589fe..d3645c4 100644
+--- a/core/losses.py
++++ b/core/losses.py
+@@ -331,7 +331,10 @@ class BoundaryLoss(nn.Module):
+         
+         pred_boundary = F.conv2d(
+             max_probs,
+-            self.laplacian_kernel.to(logits.device),
++            self.laplacian_kernel.to(
++                device=max_probs.device,
++                dtype=max_probs.dtype,
++            ),
+             padding=1
+         )
+         pred_boundary_logits = pred_boundary.abs()  # Keep as logits for BCE with logits
+diff --git a/eval_domain.py b/eval_domain.py
+index 76decbb..b63c6d3 100644
+--- a/eval_domain.py
++++ b/eval_domain.py
+@@ -56,7 +56,7 @@ def _parse_args() -> argparse.Namespace:
+ 
+ 
+ def _resolve_val_dirs(domain: str, split: str) -> Tuple[List[str], List[str]]:
+-    base = "Val/Val" if split == "val" else "Test/Test"
++    base = "Val" if split == "val" else "Test"
+     mapping = {
+         "urban": ([f"{base}/Urban/images_png"], [f"{base}/Urban/masks_png"]),
+         "rural": ([f"{base}/Rural/images_png"], [f"{base}/Rural/masks_png"]),
+@@ -177,7 +177,12 @@ def main() -> None:
+             evaluator.update(pred, mask)
+ 
+     metrics = evaluator.get_metrics()
+-    print(format_metrics_table(metrics))
++    print(
++        format_metrics_table(
++            metrics,
++            class_names=cfg.get("class_names"),
++        )
++    )
+ 
+     params_m = sum(p.numel() for p in model.parameters()) / 1e6
+     flops = _compute_flops(model, 512)
+diff --git a/train.py b/train.py
+index 0f9d5da..a59dc9e 100644
+--- a/train.py
++++ b/train.py
+@@ -20,10 +20,12 @@ Features:
+ import argparse
+ import logging
+ import os
++import random
+ import sys
+ from datetime import datetime
+ from typing import Optional
+ 
++import numpy as np
+ import torch
+ import torch.nn as nn
+ import torch.nn.functional as F
+@@ -396,6 +398,14 @@ def _parse_args():
+ 
+ def main():
+     _configure_runtime()
++
++    seed = int(os.environ.get("TRAIN_SEED", "42"))
++    random.seed(seed)
++    np.random.seed(seed)
++    torch.manual_seed(seed)
++    torch.cuda.manual_seed_all(seed)
++    print(f"[seed] TRAIN_SEED={seed}")
++
+     args = _parse_args()
+ 
+     cfg = load_config(args.config, overrides=args.overrides)

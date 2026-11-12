@@ -1,0 +1,6 @@
+backbone,variant,urban_to_rural_miou,rural_to_urban_miou,paper_urban_to_rural,paper_rural_to_urban
+VMamba,small,40.61,53.51,40.62,53.52
+CNN,DeepLabv3-ResNet50,32.33,51.38,30.36,39.98
+MambaVision,base,40.24,51.97,40.24,51.96
+Transformer-labeled,ResNet18,30.77,51.48,34.56,44.84
+Spatial-Mamba,base,30.88,44.62,35.23,46.55
