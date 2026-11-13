@@ -1,0 +1,74 @@
+[
+  {
+    "domain": "Urban",
+    "image": "/root/autodl-tmp/LoveDA/Val/Urban/images_png/4076.png",
+    "checkpoint_a": "full",
+    "checkpoint_b": "no_boundary",
+    "accuracy_a": 0.8078269958496094,
+    "accuracy_b": 0.7751960754394531,
+    "disagreement": 0.1143035888671875,
+    "a_only_correct": 0.06936264038085938,
+    "b_only_correct": 0.036731719970703125,
+    "both_wrong": 0.1554412841796875
+  },
+  {
+    "domain": "Urban",
+    "image": "/root/autodl-tmp/LoveDA/Val/Urban/images_png/3911.png",
+    "checkpoint_a": "full",
+    "checkpoint_b": "no_boundary",
+    "accuracy_a": 0.7678070068359375,
+    "accuracy_b": 0.7691459655761719,
+    "disagreement": 0.07069015502929688,
+    "a_only_correct": 0.033618927001953125,
+    "b_only_correct": 0.0349578857421875,
+    "both_wrong": 0.197235107421875
+  },
+  {
+    "domain": "Urban",
+    "image": "/root/autodl-tmp/LoveDA/Val/Urban/images_png/3663.png",
+    "checkpoint_a": "full",
+    "checkpoint_b": "no_boundary",
+    "accuracy_a": 0.8628425598144531,
+    "accuracy_b": 0.8726119995117188,
+    "disagreement": 0.045810699462890625,
+    "a_only_correct": 0.01725006103515625,
+    "b_only_correct": 0.027019500732421875,
+    "both_wrong": 0.110137939453125
+  },
+  {
+    "domain": "Rural",
+    "image": "/root/autodl-tmp/LoveDA/Val/Rural/images_png/3378.png",
+    "checkpoint_a": "full",
+    "checkpoint_b": "no_boundary",
+    "accuracy_a": 0.11757659912109375,
+    "accuracy_b": 0.6347808837890625,
+    "disagreement": 0.5362358093261719,
+    "a_only_correct": 0.005352020263671875,
+    "b_only_correct": 0.5225563049316406,
+    "both_wrong": 0.3598670959472656
+  },
+  {
+    "domain": "Rural",
+    "image": "/root/autodl-tmp/LoveDA/Val/Rural/images_png/2635.png",
+    "checkpoint_a": "full",
+    "checkpoint_b": "no_boundary",
+    "accuracy_a": 0.7001113891601562,
+    "accuracy_b": 0.7151679992675781,
+    "disagreement": 0.10588836669921875,
+    "a_only_correct": 0.03045654296875,
+    "b_only_correct": 0.045513153076171875,
+    "both_wrong": 0.2543754577636719
+  },
+  {
+    "domain": "Rural",
+    "image": "/root/autodl-tmp/LoveDA/Val/Rural/images_png/2578.png",
+    "checkpoint_a": "full",
+    "checkpoint_b": "no_boundary",
+    "accuracy_a": 0.7342185974121094,
+    "accuracy_b": 0.4645652770996094,
+    "disagreement": 0.32151031494140625,
+    "a_only_correct": 0.2923011779785156,
+    "b_only_correct": 0.022647857666015625,
+    "both_wrong": 0.243133544921875
+  }
+]

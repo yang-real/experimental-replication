@@ -1,0 +1,28 @@
+{
+  "model": "cnn_deeplabv3p",
+  "domain": "Urban",
+  "image": "/root/autodl-tmp/LoveDA/Val/Urban/images_png/4076.png",
+  "mask": "/root/autodl-tmp/LoveDA/Val/Urban/masks_png/4076.png",
+  "features": {
+    "F1": {
+      "boundary_mean_norm": 33.743160247802734,
+      "interior_mean_norm": 32.12564468383789,
+      "boundary_interior_cosine": 0.9947398900985718
+    },
+    "F2": {
+      "boundary_mean_norm": 36.384185791015625,
+      "interior_mean_norm": 35.39133071899414,
+      "boundary_interior_cosine": 0.9874335527420044
+    },
+    "F3": {
+      "boundary_mean_norm": 28.661853790283203,
+      "interior_mean_norm": 30.131624221801758,
+      "boundary_interior_cosine": 0.9760860204696655
+    },
+    "F4": {
+      "boundary_mean_norm": 14.801836013793945,
+      "interior_mean_norm": 19.286603927612305,
+      "boundary_interior_cosine": 0.5916715264320374
+    }
+  }
+}

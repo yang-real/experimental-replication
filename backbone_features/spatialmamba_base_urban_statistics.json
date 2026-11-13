@@ -1,0 +1,28 @@
+{
+  "model": "spatialmamba_base",
+  "domain": "Urban",
+  "image": "/root/autodl-tmp/LoveDA/Val/Urban/images_png/4076.png",
+  "mask": "/root/autodl-tmp/LoveDA/Val/Urban/masks_png/4076.png",
+  "features": {
+    "F1": {
+      "boundary_mean_norm": 9.401034355163574,
+      "interior_mean_norm": 9.401226043701172,
+      "boundary_interior_cosine": 0.9499841928482056
+    },
+    "F2": {
+      "boundary_mean_norm": 13.390848159790039,
+      "interior_mean_norm": 13.382804870605469,
+      "boundary_interior_cosine": 0.9351239204406738
+    },
+    "F3": {
+      "boundary_mean_norm": 19.048118591308594,
+      "interior_mean_norm": 19.039058685302734,
+      "boundary_interior_cosine": 0.7559587955474854
+    },
+    "F4": {
+      "boundary_mean_norm": 26.287202835083008,
+      "interior_mean_norm": 26.343782424926758,
+      "boundary_interior_cosine": 0.9719080924987793
+    }
+  }
+}

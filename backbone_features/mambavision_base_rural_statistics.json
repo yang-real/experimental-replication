@@ -1,0 +1,28 @@
+{
+  "model": "mambavision_base",
+  "domain": "Rural",
+  "image": "/root/autodl-tmp/LoveDA/Val/Rural/images_png/3378.png",
+  "mask": "/root/autodl-tmp/LoveDA/Val/Rural/masks_png/3378.png",
+  "features": {
+    "F1": {
+      "boundary_mean_norm": 1.7092878818511963,
+      "interior_mean_norm": 1.5278156995773315,
+      "boundary_interior_cosine": 0.6825852990150452
+    },
+    "F2": {
+      "boundary_mean_norm": 4.217373847961426,
+      "interior_mean_norm": 3.8321805000305176,
+      "boundary_interior_cosine": 0.6821741461753845
+    },
+    "F3": {
+      "boundary_mean_norm": 52.50130081176758,
+      "interior_mean_norm": 50.52369689941406,
+      "boundary_interior_cosine": 0.7130652070045471
+    },
+    "F4": {
+      "boundary_mean_norm": 1314.3057861328125,
+      "interior_mean_norm": 2082.065185546875,
+      "boundary_interior_cosine": 0.8597534894943237
+    }
+  }
+}

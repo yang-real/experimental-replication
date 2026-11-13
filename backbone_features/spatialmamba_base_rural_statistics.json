@@ -1,0 +1,28 @@
+{
+  "model": "spatialmamba_base",
+  "domain": "Rural",
+  "image": "/root/autodl-tmp/LoveDA/Val/Rural/images_png/3378.png",
+  "mask": "/root/autodl-tmp/LoveDA/Val/Rural/masks_png/3378.png",
+  "features": {
+    "F1": {
+      "boundary_mean_norm": 9.394020080566406,
+      "interior_mean_norm": 9.402097702026367,
+      "boundary_interior_cosine": 0.8682503700256348
+    },
+    "F2": {
+      "boundary_mean_norm": 13.351887702941895,
+      "interior_mean_norm": 13.34089183807373,
+      "boundary_interior_cosine": 0.7779446244239807
+    },
+    "F3": {
+      "boundary_mean_norm": 19.02476692199707,
+      "interior_mean_norm": 19.0317440032959,
+      "boundary_interior_cosine": 0.6422508358955383
+    },
+    "F4": {
+      "boundary_mean_norm": 26.406335830688477,
+      "interior_mean_norm": 26.406108856201172,
+      "boundary_interior_cosine": 0.9197660684585571
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "model": "mambavision_base",
+  "domain": "Urban",
+  "image": "/root/autodl-tmp/LoveDA/Val/Urban/images_png/4076.png",
+  "mask": "/root/autodl-tmp/LoveDA/Val/Urban/masks_png/4076.png",
+  "features": {
+    "F1": {
+      "boundary_mean_norm": 1.9248641729354858,
+      "interior_mean_norm": 1.8182218074798584,
+      "boundary_interior_cosine": 0.8992599248886108
+    },
+    "F2": {
+      "boundary_mean_norm": 4.40095853805542,
+      "interior_mean_norm": 4.205185890197754,
+      "boundary_interior_cosine": 0.9113752841949463
+    },
+    "F3": {
+      "boundary_mean_norm": 53.79029083251953,
+      "interior_mean_norm": 53.32841491699219,
+      "boundary_interior_cosine": 0.8880636692047119
+    },
+    "F4": {
+      "boundary_mean_norm": 1061.9698486328125,
+      "interior_mean_norm": 1305.3138427734375,
+      "boundary_interior_cosine": 0.9190728664398193
+    }
+  }
+}

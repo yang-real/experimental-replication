@@ -1,0 +1,28 @@
+{
+  "model": "cnn_deeplabv3p",
+  "domain": "Rural",
+  "image": "/root/autodl-tmp/LoveDA/Val/Rural/images_png/3378.png",
+  "mask": "/root/autodl-tmp/LoveDA/Val/Rural/masks_png/3378.png",
+  "features": {
+    "F1": {
+      "boundary_mean_norm": 34.6767463684082,
+      "interior_mean_norm": 34.39750289916992,
+      "boundary_interior_cosine": 0.9767423868179321
+    },
+    "F2": {
+      "boundary_mean_norm": 37.53596496582031,
+      "interior_mean_norm": 35.08795166015625,
+      "boundary_interior_cosine": 0.9678407907485962
+    },
+    "F3": {
+      "boundary_mean_norm": 30.6543025970459,
+      "interior_mean_norm": 29.6951961517334,
+      "boundary_interior_cosine": 0.9345239400863647
+    },
+    "F4": {
+      "boundary_mean_norm": 20.151159286499023,
+      "interior_mean_norm": 22.27312469482422,
+      "boundary_interior_cosine": 0.5217068195343018
+    }
+  }
+}
