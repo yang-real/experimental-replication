@@ -61,8 +61,48 @@ distinction, rather than increasing boundary activation magnitude.
 Raw metrics, per-image feature statistics and training logs are stored under
 [`evidence/ablation_15k/`](evidence/ablation_15k/).
 
+<<<<<<< HEAD
+### Multi-sample prediction comparison
+
+The following fixed random samples show that the effect of Boundary Loss is not
+uniform across every image. Urban and Rural panels each contain three distinct
+samples, including full-loss wins, near ties and no-boundary wins.
+
+![Urban A/B predictions](evidence/prediction_comparison/prediction_comparison_urban.png)
+
+![Rural A/B predictions](evidence/prediction_comparison/prediction_comparison_rural.png)
+
+Prediction colours in the final column:
+
+- green: both models correct
+- blue: full TriBraid correct, no-boundary wrong
+- orange: no-boundary correct, full TriBraid wrong
+- red: both models wrong
+- black: ignored pixels
+
+The per-image measurements are stored in
+[`results/prediction_metrics.csv`](results/prediction_metrics.csv).
+
+=======
+>>>>>>> origin/main
 This is an exploratory single-seed, 15k-iteration ablation and is not a strict
 replacement for a full 50k multi-seed experiment.
+
+## Cross-backbone feature comparison
+
+All five backbones use the same Urban image (`4076.png`) and Rural image
+(`3378.png`). Each row shows the input and the F1-F4 PCA projections.
+
+![Urban backbone features](evidence/backbone_features/backbone_feature_comparison_urban.png)
+
+![Rural backbone features](evidence/backbone_features/backbone_feature_comparison_rural.png)
+
+The individual model figures and their numerical feature statistics are stored
+under [`evidence/backbone_features/`](evidence/backbone_features/).
+
+The transformer-labelled checkpoint is included as published, but its
+configuration executes a ResNet-18 CNN encoder rather than a real UNetFormer
+Transformer.
 
 ## Reports
 
@@ -73,6 +113,22 @@ replacement for a full 50k multi-seed experiment.
 - [Transformer / ResNet-18 configuration](reports/04_transformer_unetformer_resnet18.md)
 - [Spatial-Mamba-Base](reports/05_spatialmamba_base.md)
 - [Boundary Loss ablation](reports/06_boundary_loss_ablation_15k.md)
+- [Feature and prediction analysis](reports/07_feature_and_prediction_analysis.md)
+
+## Reproducibility assets
+
+- [Environment description](docs/ENVIRONMENT.md)
+- [Step-by-step reproduction guide](docs/REPRODUCE.md)
+- [Checkpoint manifest](docs/CHECKPOINTS.md)
+- [Base environment requirements](requirements.txt)
+- [MambaVision environment requirements](requirements-mambavision.txt)
+- [Conda environment](environment.yml)
+- [Machine-readable reproduction metrics](results/reproduction_metrics.csv)
+- [Machine-readable cross-domain metrics](results/cross_domain_metrics.csv)
+- [Boundary Loss ablation metrics](results/boundary_ablation_metrics.csv)
+- [Feature similarity measurements](results/feature_quantitative.csv)
+- [Upstream compatibility patch](patches/upstream_compatibility.patch)
+- [Analysis scripts](scripts/)
 
 ## Reproducibility assets
 
