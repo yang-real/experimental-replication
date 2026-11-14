@@ -15,6 +15,7 @@
 - 真正的 Urban→Rural 和 Rural→Urban 跨域结果
 - Boundary 与 Interior 分割性能比较
 - Structural 与 Natural 类别的跨域分组指标
+  
 后续工作已补充 MambaVision、Spatial-Mamba、CNN 和 Transformer
 标记模型的检查点核验，并增加了特征与预测可视化。
 
