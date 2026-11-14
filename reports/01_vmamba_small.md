@@ -15,14 +15,15 @@
 - 真正的 Urban→Rural 和 Rural→Urban 跨域结果
 - Boundary 与 Interior 分割性能比较
 - Structural 与 Natural 类别的跨域分组指标
+后续工作已补充 MambaVision、Spatial-Mamba、CNN 和 Transformer
+标记模型的检查点核验，并增加了特征与预测可视化。
 
-未完成：
+截至本报告完成时，尚未覆盖：
 
-- MambaVision、Spatial‑Mamba、CNN、Transformer 全部变体
 - ISPRS Potsdam
 - Params、FLOPs、FPS 和峰值显存
 - Rotation robustness
-- 定性结果
+- 完整 50k 多种子训练
 
 ## 2. 运行环境
 
